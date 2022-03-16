@@ -1,0 +1,21 @@
+class CommonStreamElements {
+    public List<Integer> messageFromList1(Integer m){
+        return list1<m>
+    }
+
+    public List<Integer> messageFromList2(Integer m){
+        return list2<m>
+    }
+
+    public List<Integer> commonMessage(){
+
+        #In this case, we do a "For" loop in Java to identify similar elements betweeen 2 lists
+        #I put, for now, a "For" loop in Python
+        for numbers1 in l1:
+            for numbers2 in l2:
+                if numbers1 == numbers2 and numbers1 not in intersection:
+                    intersection.append(numbers1)
+
+        return newList<>
+    }
+}
